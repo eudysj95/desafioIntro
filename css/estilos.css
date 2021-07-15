@@ -1,0 +1,102 @@
+:root{
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --darkBlue: hsl(249, 10%, 26%);
+    --grayishBlue: hsl(246, 25%, 77%);
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+h1{
+    color: #fff;
+    font-size: 7.2rem;
+}
+p{
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+h4{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--red);
+    background-image: url(../images/bg-intro-desktop.png);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 850px;
+}
+.left{
+    width: 720px;
+    padding: 120px 100px 0 0;
+}
+.right{
+    width: 720px;
+}
+.right-header{
+    width: 720px;
+    height: 80px;
+    background-color: var(--blue);
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 7px #a0a0a0ee;
+}
+    .right-header h4{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .right-header h4 span{
+        font-size: 2.2rem;
+    }
+.right-body{
+    background-color: #fff;
+    height: 540px;
+    color: black;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 10px #a0a0a0ee;
+}
+    input[type=text], select{
+        width: 92%;
+        height: 50px;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 3px solid #ccc;
+        border-radius: 10px;
+        color: black;
+        font-size: 20px;
+    }
+    input[type=submit] {
+        width: 100%;
+        background-color: var(--green);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 25px;
+      }
+    .right-footer{
+        margin-top: 30px;
+        color: rgb(77, 74, 74);
+        font-size: 2rem;
+        text-align: center;
+    }
+        .right-footer span{
+            color: var(--red);
+        }
